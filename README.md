@@ -19,9 +19,9 @@ Screenshots
 This Weather App utilizes the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather data.
 
 # Project Structure
-- <u>**index.html:**</u> HTML file containing the structure of the Weather App.
-<u>**style.css:**</u> CSS file for styling the Weather App.
-<u>**index.js:**</u> JavaScript file for handling API requests and updating the UI.
+- **index.html:** HTML file containing the structure of the Weather App.
+- **style.css:** CSS file for styling the Weather App.
+- **index.js:** JavaScript file for handling API requests and updating the UI.
 
 # Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
