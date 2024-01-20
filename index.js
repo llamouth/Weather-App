@@ -53,7 +53,7 @@ async function checkWeather(city) {
         const temperature = isFahrenheit ? celsiusToFahrenheit(data.main.temp) : data.main.temp;
         updateTemperature(Math.round(temperature), temperatureUnit);
         document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-        document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+        document.querySelector(".wind").innerHTML = Math.round(data.wind.speed * 1.609344) + "mph";
 
         if (data.weather[0].main == "Clouds") {
             weatherIcon.src = "images/Clouds.png";
