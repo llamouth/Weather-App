@@ -4,7 +4,8 @@ This is a simple Weather App built using HTML, CSS, and JavaScript. The app allo
 # Features
 - **Search Functionality:** Users can enter the name of the city they want to check the weather for.
 - **Error Handling:** If the entered city is not found, an error message is displayed.
-- **Weather Information:** Displays temperature in Fahrenheit, humidity percentage, wind speed, and a weather icon.
+- **Temperature Conversion:** Converts temperature from Fahrenheit to Celsius
+- **Weather Information:** Displays temperature in Fahrenheit/Celsius, humidity percentage, wind speed, and a weather icon.
 
 ![Alt Text](images/Weather-App-Picture.png)
 
