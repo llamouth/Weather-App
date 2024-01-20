@@ -11,7 +11,7 @@ body{
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #1BE1FA, #f9b159);
+    background: linear-gradient(135deg, #1BE1FA, #000000);
     color: #F4FFE9; /* text color */
     margin: 100px auto 0;
     border-radius: 20px;
@@ -92,4 +92,16 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+#toggleButton {
+    margin-left: 10px;
+    padding: 15px;
+    cursor: pointer;
+    background: #ebfffc;
+    border-radius: 50%;
+    border: 20; /* Remove border to match the search button */
+    outline: 0;
+    width: 60px; /* Set a fixed width to match the search button */
+    height: 60px;
+    color: #555;
 }
