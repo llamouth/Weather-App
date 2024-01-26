@@ -5,7 +5,7 @@ const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 const toggleButton = document.getElementById('toggleButton');
 
-let isFahrenheit = true; // Initial unit is Fahrenheit
+let isFahrenheit = true; 
 
 // Function to convert Celsius to Fahrenheit
 function celsiusToFahrenheit(celsius) {
@@ -75,3 +75,6 @@ async function checkWeather(city) {
 searchBtn.addEventListener("click", () => {
     checkWeather(searchBox.value);
 });
+
+
+// ! IMPLEMENT NIGHT AND DAY DIFFERENTIAL 

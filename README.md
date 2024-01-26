@@ -14,7 +14,7 @@ This is a simple Weather App built using HTML, CSS, and JavaScript. The app allo
 2. Open the index.html file in a web browser.
 # Usage
 1. Enter the name of the city in the search input.
-2. Click the search button or press Enter to retrieve the weather information.
+2. Click the search button.
 3. View the current weather details for the specified city.
 # APIs Used
 This Weather App utilizes the [OpenWeatherMap API](https://openweathermap.org/api) to fetch real-time weather data.
