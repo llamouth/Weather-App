@@ -5,15 +5,17 @@
     box-sizing: border-box;
 }
 body{
-    background:#493838
+    background:linear-gradient(135deg, #1BE1FA, #EFB464)
 
 }
 .card{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #1BE1FA, #EFB464);
+    /* background: linear-gradient(135deg, #1BE1FA, #EFB464); */
+    background-color: rgba(0, 0, #4F5F5E, 0.5);
     color: #F4FFE9; /* text color */
     margin: 100px auto 0;
+    margin-left: 100px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align:center;
